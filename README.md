@@ -44,11 +44,11 @@ This project follows a structured Git branching model to separate frontend and b
 
 ```bash
 # Work on frontend
-git checkout frontend
+git checkout branch_frontend
 # Make changes to frontend code
 
 # Work on backend
-git checkout backend
+git checkout branch_backend
 # Make changes to backend code
 
 # Merge both into main for integration
