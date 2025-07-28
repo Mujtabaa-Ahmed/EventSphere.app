@@ -46,12 +46,17 @@ This project follows a structured Git branching model to separate frontend and b
 # Work on frontend
 git checkout branch_frontend
 # Make changes to frontend code
+After the changes made in frontend branch, you have to push the changes on frontend brnach (branch_frontend)
+# To push changes in frontend branch
+git push origin branch_frontend
 
 # Work on backend
 git checkout branch_backend
 # Make changes to backend code
+After the changes made in backend branch, you have to push the changes on backend brnach (branch_backend)
+git push origin branch_backend
 
 # Merge both into main for integration
 git checkout main
-git merge frontend
-git merge backend
+git merge branch_frontend
+git merge branch_backend
