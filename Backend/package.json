@@ -4,7 +4,7 @@
   "description": "Eproject",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "_comment": "use nodemon in lockal but for deployment use node"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
