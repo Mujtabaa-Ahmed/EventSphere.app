@@ -7,8 +7,8 @@ This project follows a structured Git branching model to separate frontend and b
 | Branch     | Purpose                            | Deployment Target |
 |------------|-------------------------------------|-------------------|
 | `main`     | Stable, integrated branch with both frontend and backend code. Used for staging or final production review. | None (optional staging) |
-| `frontend` | Contains only the frontend code (React, Vite, or Next.js inside `/frontend` folder). | Vercel |
-| `backend`  | Contains only the backend code (Node.js, Express, or Nest.js inside `/backend` folder). | Railway |
+| `branch_frontend` | Contains only the frontend code (React, Vite, or Next.js inside `/frontend` folder). | Vercel |
+| `brnach_backend`  | Contains only the backend code (Node.js, Express, or Nest.js inside `/backend` folder). | Railway |
 
 ---
 
